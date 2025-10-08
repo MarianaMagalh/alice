@@ -1,0 +1,29 @@
+.capitulo-page {
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.conteudo-capitulo {
+  padding: 20px;
+  flex: 1;
+}
+
+.conteudo-capitulo h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.area-interativa {
+  display: flex;
+  gap: 20px;
+}
+
+.livro {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 15px;
+  border-radius: 10px;
+  flex: 1;
+  max-width: 800px;
+}
