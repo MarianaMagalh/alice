@@ -1,0 +1,18 @@
+.footer {
+  margin-top: 5rem;
+  position: relative;
+}
+ 
+.footer-wave {
+  width: 100%;
+  height: 6rem;
+  display: block;
+}
+ 
+.footer-text {
+  text-align: center;
+  font-size: 0.75rem;
+  color: rgba(255, 255, 255, 0.7);
+  padding: 1.5rem 0;
+  background-color: rgba(14, 165, 233, 0.05);
+}

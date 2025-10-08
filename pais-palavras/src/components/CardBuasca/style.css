@@ -34,12 +34,23 @@
 }
 
 /*=======================================================*/
+
+main{
+    width: 50%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
 figure {
-    width: 250px;
-    height: 50px;
+    width: auto;
+    height: auto;
     position: relative;
     z-index: 4;
-    bottom: 10px;
+    top: 100px;
+
 }
 
 .corBase {

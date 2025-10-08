@@ -1,8 +1,10 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 import capitulos from "../../data/capitulosData";
-import CardBusca from "../CardBusca";
-import './CapituloPage.css'; 
+import CardBusca from "../CardBuasca/CardBusca";
+import Navbar from "../Navbar/Navbar";
+import Footer from "../Footer/Footer";
+import './CapituloPage.css';
 
 export default function CapituloPage() {
   const { id } = useParams();
@@ -12,23 +14,23 @@ export default function CapituloPage() {
 
   return (
     <div
-      className="capitulo-page"
+      className="capituloPage"
       style={{ backgroundImage: `url(${capitulo.fundo})` }}
     >
-      {/* Navbar e Footer podem ser descomentados se tiver */}
-      {/* <Navbar /> */}
 
-      <div className="conteudo-capitulo">
-        <h2>{capitulo.titulo}</h2>
+      <Navbar />
+
+      <div className="conteudoPapitulo">
+        <h2 className="titulo">{capitulo.titulo}</h2>
         <CardBusca />
-        <div className="area-interativa">
+        <div className="areaInterativa">
           <div className="livro">
             <p>{capitulo.texto}</p>
           </div>
         </div>
       </div>
 
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }
