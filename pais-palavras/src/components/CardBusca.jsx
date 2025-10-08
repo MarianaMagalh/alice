@@ -51,6 +51,41 @@ export default function CardBusca() {
                                 <label htmlFor="">Amarelo</label>
                             </div>
 
+                            <div className="cor1">
+                                <input type="radio" name="radio" id="radio" checked />
+                                <label htmlFor="">Verde</label>
+                            </div>
+
+                            <div className="cor2">
+                                <input type="radio" name="radio" id="radio" checked />
+                                <label htmlFor="">Vermelho</label>
+                            </div>
+
+                            <div className="cor3">
+                                <input type="radio" name="radio" id="radio" checked />
+                                <label htmlFor="">Roxo</label>
+                            </div>
+
+                            <div className="cor5">
+                                <input type="radio" name="radio" id="radio" checked />
+                                <label htmlFor="">Azul</label>
+                            </div>
+
+                            <div className="cor6">
+                                <input type="radio" name="radio" id="radio" checked />
+                                <label htmlFor="">Rosa</label>
+                            </div>
+
+                            <div className="cor7">
+                                <input type="radio" name="radio" id="radio" checked />
+                                <label htmlFor="">Laranja</label>
+                            </div>
+
+                            <div className="cor8">
+                                <input type="radio" name="radio" id="radio" checked />
+                                <label htmlFor="">Ciano</label>
+                            </div>
+
                         </div>
 
 

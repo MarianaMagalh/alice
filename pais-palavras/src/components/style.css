@@ -178,7 +178,9 @@ form {
 }
 
 .containerCores{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
     align-self: center;
     background-color: var(--ligth-blue);
     width: 480px;
@@ -188,9 +190,64 @@ form {
     border: var(--purple-blue) solid 2px;
 }
 
-.cor{
+.containerCores label {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-size: 14px; 
+}
+
+.cor, .cor1, .cor2, .cor3, .cor5, .cor6, .cor7, .cor8 {
     border-radius: 15px;
+    display: flex;
+    align-items: center;
+    width: 100px;
+    height: 40px;
+  
+}
+
+.cor{
     background-color: yellow;
-    width: 120px;
-    height: 50px;
+}
+
+.cor1{
+    background-color: #2ED818;
+}
+
+.cor2{
+    background-color: #DC0B0B;
+    color: white;
+}
+
+.cor3{
+    background-color: #5d1ea0;
+    color: white;
+}
+
+.cor4{
+    background-color: #DC0B0B;
+    color: white;
+}
+
+.cor5{
+    background-color: #035eba;
+    color: white;
+}
+
+.cor6{
+    background-color: #d20090;
+    color: white;
+}
+
+.cor7{
+    background-color: #e05403;
+    color: white;
+}
+
+.cor8{
+    background-color: #17DFA0;
+}
+
+.containerCores input[type="radio"] {
+  accent-color: black;
 }
