@@ -1,7 +1,8 @@
 import './Footer.css';
 
 export default function Footer() {
-    <>
+    return(
+        <>
         {/* Rodapé */}
         <footer className="footer">
             <div style={{ background: "#0b1546" }}></div>
@@ -11,4 +12,6 @@ export default function Footer() {
             </div>
         </footer>
     </>
+    )
+    
 }
