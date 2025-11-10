@@ -1,6 +1,7 @@
 import { useState } from "react";
 import './Navbar.css';
 import icon from "../../assets/imgs/logo.png";
+import Home from "../../pages/Home/Home";
 
 export default function Navbar() {
     return (
@@ -14,7 +15,7 @@ export default function Navbar() {
                     />
                     <nav className="navbar">
                         <ul>
-                            <li><a href="#home">Home</a></li>
+                            <li><a href="">Home</a></li>
                             <li><a href="#sobre">Sobre Nós</a></li>
                             <li><a href="#capitulos">Capítulos</a></li>
                             <li><a href="#contato">Contato</a></li>

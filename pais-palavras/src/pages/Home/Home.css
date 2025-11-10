@@ -3,11 +3,9 @@
 
 .body-home{
     font-family: 'Poppins', sans-serif;
+    width: 100%;
     min-height: 50vh;
     background-color: #F8A3D6;
-    display: flex;
-    flex-direction: column;
-    position: relative;
 }
 
 .fig-logo{
