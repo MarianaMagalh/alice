@@ -1,27 +1,25 @@
 import Navbar from '../../components/Navbar/Navbar';
 import Footer from '../../components/Footer/Footer';
-import CardGira from '../../components/CardGira/CardGira';
+import Carrossel from '../../components/Carrossel/Carrossel';
 
-import espiral from '../../assets/imgs/espiral.png';
-import divnuvem from '../../assets/imgs/div-nuvem.png';
+import fundoHome from '../../assets/imgs/fundoHome.png';
+import tituloPersonagens from '../../assets/imgs/tituloPersonagens.png';
 import '../Home/Home.css';
 
 export default function Home() {
     return (
-        <main className='body-home'>
+        <main className='bodyHome'>
             <Navbar />
 
-            <figure className='fig-logo'>
-                <img src={espiral} alt="" />
+            <figure className='imgFundo'>
+                <img src={fundoHome} alt="" />
             </figure>
 
-            <figure className='fig-div'>
-                <img src={divnuvem} alt="" />
-            </figure>
-
-            <section>
-                <h2>Personagens</h2>
-                <CardGira />
+            <section className='secao'>
+                <figure className='imgTituloPerso'>
+                    <img src={tituloPersonagens} alt="" />
+                </figure>
+                <Carrossel /> 
             </section>
 
             <Footer />

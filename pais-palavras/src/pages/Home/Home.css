@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
 
-.body-home{
+.bodyHome{
     font-family: 'Poppins', sans-serif;
     width: 100%;
     min-height: 50vh;
     background-color: #F8A3D6;
 }
 
-.fig-logo{
+.imgFundo{
     position: relative;
     z-index: 3;
     top: 0px;
@@ -21,15 +21,21 @@
     }
 }
 
-.fig-div{
+.secao{
+    max-width: 90%;
     position: relative;
     z-index: 4;
-    top: -200px;
-    width: 100%;
-    height: auto;
+    bottom: 100rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgTituloPerso{
+    width: 80%;
 
     img{
         width: 100%;
-        height: auto;
     }
 }
