@@ -10,11 +10,16 @@
 
 .body-capitulos {
     font-family: 'Poppins', sans-serif;
+    width: 100%;
     min-height: 50vh;
     background-image: url('../../assets/imgs/fundoCapitulo.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .titulo {

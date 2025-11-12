@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+ 
+.bodySobreNos {
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    min-height: 100vh;
+    background-image: url('../../assets/imgs/fundo-sobre-nos.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 0;
+    box-sizing: border-box;
+}
+ 
+.sobreNosContainer {
+    width: 90%;
+    max-width: 1200px;
+    background: #ffffff;
+    border: 3px solid #FF5FBB;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    display: flex;
+    flex-wrap: wrap; 
+    margin: 3rem 0; 
+    padding: 2.5rem;
+    gap: 3rem; 
+    box-sizing: border-box;
+    align-items: flex-start; 
+}
+ 
+/* --- Colunas Principais --- */
+.sobreNosSection,
+.contatoSection {
+    flex: 1;
+    min-width: 300px; 
+    display: flex;
+    flex-direction: column;
+}
+ 
+.sobreNosSection h2 {
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 32px; 
+    color: #000000;
+    margin: 0;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+ 
+.sobreNosSection p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px; 
+    line-height: 25px; 
+    color: #000000;
+    text-align: justify;
+    margin-bottom: 1rem;
+}
+ 
+ 
+.contatoSection h2 {
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 32px;
+    color: #000000;
+    margin: 0;
+    text-align: center;
+}
+ 
+.subtituloContato {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #000000;
+    text-align: center;
+    margin-top: 0.5rem;
+}
+ 
+.contatoForm {
+    box-sizing: border-box;
+    background: rgba(252, 215, 240, 0.4);
+    border: 3px solid #FF5FBB;
+    border-radius: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 1rem 1.5rem;
+    padding: 2rem;
+    margin-top: 1.5rem;
+}
+ 
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem; 
+}
+ 
+.form-group.textarea-group {
+    grid-column: 2 / 3;
+    grid-row: 2 / span 2;
+}
+ 
+.form-group.button-group {
+    grid-column: 1 / -1;
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+ 
+.contatoForm label {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #000000;
+}
+ 
+.contatoForm input,
+.contatoForm textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    background: #FFFFFF;
+    box-sizing: border-box;
+}
+ 
+#nome {
+    border: 2px solid #32A363;
+}
+#sobrenome {
+    border: 2px solid #E70141;
+}
+#email {
+    border: 2px solid #F0D44C;
+}
+#telefone {
+    border: 2px solid #5C90D9;
+}
+#mensagem {
+    border: 2px solid #B5398A;
+    min-height: 119px; 
+    resize: vertical;
+}
+ 
+.btnEnviar {
+    /* "Rectangle 222" */
+    background: #F65DBC;
+    border: 2px solid #674BB4;
+    border-radius: 15px;
+    width: 100px;
+    height: 47px;
+    /* "Enviar" */
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+ 
+.btnEnviar:hover {
+    background: #d14cac; 
+    transform: scale(1.05);
+}

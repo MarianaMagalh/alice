@@ -5,8 +5,8 @@ import lacoTitulo from '../../assets/imgs/laco.png';
 export default function CardBusca() {
     return (
         <>
-            <main>
-                <figure>
+            <section>
+                <figure className="imgTituloBusca">
                     <img src={lacoTitulo} alt="" />
                 </figure>
                 <div className="corBase">
@@ -94,7 +94,7 @@ export default function CardBusca() {
                     </div>
                 </div>
 
-            </main>
+            </section>
 
         </>
     )

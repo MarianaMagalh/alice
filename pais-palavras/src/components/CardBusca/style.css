@@ -23,15 +23,6 @@
     font-style: normal;
 }
 
-/* CORES */
-:root {
-    --dark-green: #1C6B5D;
-    --medium-green: #07CD71;
-    --ligth-green: #D8FFE7;
-    --purple-blue: #5768D6;
-    --white: #fff;
-    --ligth-blue: #E6F0FF;
-}
 
 /*=======================================================*/
 
@@ -44,21 +35,21 @@ main{
     flex-direction: column;
 }
 
-figure {
-    width: auto;
+.imgTituloBusca {
+    width: 500px;
     height: auto;
     position: relative;
     z-index: 4;
     top: 100px;
-
+    left: 50px;
 }
 
 .corBase {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: var(--dark-green);
-    width: 650px;
+    background-color: #762F74;
+    width: 670px;
     height: 790px;
     border-radius: 15px;
     position: relative;
@@ -70,8 +61,8 @@ figure {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: var(--medium-green);
-    width: 610px;
+    background-color: #FC63B8;
+    width: 640px;
     height: 750px;
     border-radius: 15px;
     box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
@@ -84,18 +75,19 @@ form {
     z-index: 1;
     display: flex;
     flex-direction: column;
-    background-color: var(--ligth-green);
-    width: 570px;
+    background-color: #FAE3E5;
+    width: 610px;
     height: 710px;
     border-radius: 15px;
     box-shadow: rgba(2, 2, 3, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
 
     p {
+        width: 570px;
         text-align: justify;
         margin-top: 50px;
         padding: 20px;
         font-family: "Poppins", sans-serif;
-        font-size: 16px;
+        font-size: 18px;
     }
 
     label {
@@ -108,24 +100,26 @@ form {
 
 
 .alinhamento { 
+    width: 590px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: self-start;
     
     input {
-        width: 350px;
+        width: 450px;
         height: 35px;
         border-radius: 15px;
-        background-color: var(--white);
-        padding-left: 10px;
+        background-color: #fff;
+        padding-left: 20px;
         margin-right: 90px;
+        margin-left: 20px;
         margin-bottom: 30px;
-        border: var(--purple-blue) solid 2px;
+        border: #5768D6 solid 2px;
         font-family: "Poppins", sans-serif;
     }
 
     .bi-search {
-        color: var(--white);
+        color: #fff;
         width: 30px;
         height: 30px;
     }
@@ -133,7 +127,7 @@ form {
     .btn {
         width: 50px;
         height: 40px;
-        background-color: var(--purple-blue);
+        background-color: #5768D6;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -163,9 +157,9 @@ form {
 .mostraInfos{
     width: 250px;
     height: 80px;
-    background-color: var(--white);
+    background-color: #fff;
     border-radius: 15px;
-    border: var(--purple-blue) solid 2px;
+    border: #5768D6 solid 2px;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -193,12 +187,12 @@ form {
     grid-template-columns: repeat(4, 1fr);
     gap: 15px;
     align-self: center;
-    background-color: var(--ligth-blue);
-    width: 480px;
+    background-color: #FFF9DD;
+    width: auto;
     height: 100px;
     padding: 15px;
     border-radius: 15px;
-    border: var(--purple-blue) solid 2px;
+    border: #F09A2C solid 2px;
 }
 
 .containerCores label {
@@ -211,10 +205,18 @@ form {
 .cor, .cor1, .cor2, .cor3, .cor5, .cor6, .cor7, .cor8 {
     border-radius: 15px;
     display: flex;
+    justify-content: space-around;
     align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
     width: 100px;
     height: 40px;
   
+}
+
+#radio{
+    width: 20px;
+    height: 20px;
 }
 
 .cor{

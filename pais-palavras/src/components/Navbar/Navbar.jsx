@@ -1,7 +1,8 @@
 import { useState } from "react";
+import { Link } from 'react-router-dom';
 import './Navbar.css';
 import icon from "../../assets/imgs/logo.png";
-import Home from "../../pages/Home/Home";
+
 
 export default function Navbar() {
     return (
@@ -13,12 +14,12 @@ export default function Navbar() {
                         alt="Ícone Gato de Cheshire"
                         className="header-cat-icon"
                     />
+                    <h1 className="tituloNav">Alice no País das Maravilhas</h1>
                     <nav className="navbar">
                         <ul>
-                            <li><a href="">Home</a></li>
-                            <li><a href="#sobre">Sobre Nós</a></li>
-                            <li><a href="#capitulos">Capítulos</a></li>
-                            <li><a href="#contato">Contato</a></li>
+                            <li><Link to="/Home">Home</Link></li>
+                            <li><Link to="/Capitulos">Capítulos</Link></li>
+                            <li><Link to="/SobreNos">Sobre Nós</Link></li>
                         </ul>
                     </nav>
                 </div>

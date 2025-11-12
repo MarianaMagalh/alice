@@ -1,3 +1,10 @@
+/* Fontes */
+@font-face {
+  font-family: 'WizardsMagic';
+  src: url(../../assets/font/wizards_magic/Wizards_Magic.ttf) format(truetype);
+}
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+
 .alice-header {
   width: 90%;
   margin-top: 2rem;
@@ -32,7 +39,15 @@
 .header-cat-icon:hover {
   transform: rotate(10deg) scale(1.05);
 }
- 
+
+/* Titulo */
+.tituloNav{
+  font-family: 'WizardsMagic';
+  color: #ffffff;
+  font-weight: 500;
+}
+
+
 /* Navbar */
 .navbar ul {
   list-style: none;
@@ -47,9 +62,10 @@
   color: #ffffff;
   text-decoration: none;
   font-weight: 500;
-  font-size: 1rem;
+  font-size: 1.3rem;
   position: relative;
   transition: color 0.3s ease;
+  font-family: 'Berkshire Swash', cursive;
 }
  
 /* Efeito de sublinhado animado */

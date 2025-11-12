@@ -1,4 +1,7 @@
 import { Link } from 'react-router-dom';
+import Navbar from '../Navbar/Navbar';
+import Footer from '../Footer/Footer';
+
 import './Capitulos.css';
 import capitulo01 from '../../assets/imgs/capitulo01.png';
 import capitulo02 from '../../assets/imgs/capitulo02.png';
@@ -16,7 +19,8 @@ import capitulo12 from '../../assets/imgs/capitulo12.png';
 export default function Capitulos() {
     return (
         <>
-            <body className='body-capitulos'>
+            <main className='body-capitulos'>
+                <Navbar />
                 <section className="titulo">
                     <h1>Capítulos</h1>
                 </section>
@@ -82,7 +86,8 @@ export default function Capitulos() {
                         <h3>Capítulo 12 - Evidências de Alice</h3>
                     </Link>
                 </div>
-            </body>
+                <Footer />
+            </main>
         </>
     );
 }
