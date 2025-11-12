@@ -10,7 +10,7 @@ export default function App() {
   return (
     <Routes>
       {/* Tela inicial do site */}
-      <Route path="/Home" element={<Home />} />
+      <Route path="/" element={<Home />} />
 
       {/* Tela de escolher capítulos */}
       <Route path="/Capitulos" element={<Capitulos />}/>
