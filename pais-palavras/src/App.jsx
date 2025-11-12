@@ -4,11 +4,16 @@ import Capitulos from "./components/TelaCapitulo/Capitulos";
 import CapituloPage from "./components/CapituloPage/CapituloPage";
 import Home from "./pages/Home/Home";
 import capitulos from "./data/capitulosData";
+import SobreNos from "./pages/SobreNos/SobreNos";
 
 
 export default function App() {
   return (
     <Routes>
+
+      {/* Rota Raiz */}
+      <Route path="/" element={<Home />} />
+
       {/* Tela inicial do site */}
       <Route path="/Home" element={<Home />} />
 
@@ -17,6 +22,9 @@ export default function App() {
 
       {/* Tela do capítulo, usando parâmetro da URL */}
       <Route path="/Capitulo/:id" element={<CapituloPage />} />
+
+      {/* Tela do Sobre nos */}
+      <Route path="/sobre" element={<SobreNos />} />
 
       
     </Routes>

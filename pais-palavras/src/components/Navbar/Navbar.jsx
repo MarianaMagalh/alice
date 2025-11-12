@@ -2,6 +2,7 @@ import { useState } from "react";
 import './Navbar.css';
 import icon from "../../assets/imgs/logo.png";
 import Home from "../../pages/Home/Home";
+import { Link } from "react-router-dom";
 
 export default function Navbar() {
     return (
@@ -15,10 +16,10 @@ export default function Navbar() {
                     />
                     <nav className="navbar">
                         <ul>
-                            <li><a href="">Home</a></li>
-                            <li><a href="#sobre">Sobre Nós</a></li>
-                            <li><a href="#capitulos">Capítulos</a></li>
-                            <li><a href="#contato">Contato</a></li>
+                            <li><Link to="/home">Home</Link></li>
+                            <li><Link to="/sobre">Sobre Nós</Link></li>
+                            <li><Link to="/capitulos">Capítulos</Link></li>
+                            <li><Link to="/sobre#contato">Contato</Link></li>
                         </ul>
                     </nav>
                 </div>
