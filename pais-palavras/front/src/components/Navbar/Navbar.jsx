@@ -19,6 +19,7 @@ export default function Navbar() {
                         <ul>
                             <li><Link to="/Home">Home</Link></li>
                             <li><Link to="/Capitulos">Capítulos</Link></li>
+                            <li><Link to="/leitura">Ler Livro</Link></li>
                             <li><Link to="/SobreNos">Sobre Nós</Link></li>
                         </ul>
                     </nav>
