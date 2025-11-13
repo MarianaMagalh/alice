@@ -4,7 +4,7 @@ import Capitulos from "./components/TelaCapitulo/Capitulos";
 import CapituloPage from "./components/CapituloPage/CapituloPage";
 import Home from "./pages/Home/Home";
 import SobreNos from './pages/SobreNos/SobreNos';
-import Leitura from "./pages/Leitura/Leitura";
+//import Leitura from "./pages/Leitura/Leitura";
 
 
 export default function App() {
@@ -25,9 +25,9 @@ export default function App() {
       {/* Tela Sobre Nós */}
       <Route path="/SobreNos" element={<SobreNos />}/>
       
-      {/* Leitura do livro*/}
+      {/* Leitura do livro
       <Route path="/leitura" element={<Leitura />} />
-
+      */}
       
     </Routes>
   );

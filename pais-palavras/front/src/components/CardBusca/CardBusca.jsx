@@ -11,7 +11,7 @@ export default function CardBusca() {
                 </figure>
                 <div className="corBase">
                     <div className="corSegundaria">
-                        <form action="">
+                        <form className='formBusca' action="">
                             <p>Nessa área você pode pesquisar palavras ou quantas letras você quer ver em uma parte do livro. Ela irá aparecer diretamente no livro, onde é possivel trocar a sua cor de destaque.</p>
 
                             <label htmlFor="">Digite aqui a palavra que você procura:</label>

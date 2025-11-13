@@ -5,7 +5,7 @@
 }
 @import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
 
-.alice-header {
+.aliceHeader {
   width: 90%;
   margin-top: 2rem;
   display: flex;
@@ -16,7 +16,7 @@
 }
  
 /* Container interno do header */
-.header-content {
+.headerContent {
   width: 100%;
   display: flex;
   align-items: center;
@@ -30,13 +30,13 @@
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
 }
  
-.header-cat-icon {
-  width: 3.5rem;
+.headerLogo {
+  width: 4rem;
   height: auto;
   transition: transform 0.3s ease;
 }
  
-.header-cat-icon:hover {
+.headerLogo:hover {
   transform: rotate(10deg) scale(1.05);
 }
 

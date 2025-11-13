@@ -4,12 +4,8 @@
   position: relative;
 }
  
-.footer-wave {
-  height: 6rem;
-  display: block;
-}
  
-.footer-text {
+.footerText {
   text-align: center;
   font-size: 0.75rem;
   color: rgba(255, 255, 255, 0.7);

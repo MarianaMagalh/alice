@@ -7,12 +7,12 @@ import icon from "../../assets/imgs/logo.png";
 export default function Navbar() {
     return (
         <>
-            <header className="alice-header">
-                <div className="header-content">
+            <header className="aliceHeader">
+                <div className="headerContent">
                     <img
                         src={icon}
-                        alt="Ícone Gato de Cheshire"
-                        className="header-cat-icon"
+                        alt="Ícone Livro Aberto Com Palavras Saindo dele"
+                        className="headerLogo"
                     />
                     <h1 className="tituloNav">Alice no País das Maravilhas</h1>
                     <nav className="navbar">

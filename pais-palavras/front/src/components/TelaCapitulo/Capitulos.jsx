@@ -19,7 +19,7 @@ import capitulo12 from '../../assets/imgs/capitulo12.png';
 export default function Capitulos() {
     return (
         <>
-            <main className='body-capitulos'>
+            <main className='bodyCapitulos'>
                 <Navbar />
                 <section className="titulo">
                     <h1>Capítulos</h1>

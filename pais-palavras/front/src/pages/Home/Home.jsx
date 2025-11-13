@@ -24,7 +24,8 @@ export default function Home() {
                 <figure className='imgTituloPerso'>
                     <img src={tituloPersonagens} alt="Laço com o descrevendo o conteudo logo abaixo - Laço escrito Personagens" />
                 </figure>
-                <Carrossel /> 
+                
+                <Carrossel />
 
                 <figure>
                     <img src={tituloLivro} alt="Laço com o descrevendo o conteudo logo abaixo - Laço escrito Livro" />
@@ -35,6 +36,7 @@ export default function Home() {
                         <img src={livro} alt="Livro personalizado da Alice no País das Maravilhas" />
                     </figure>
                 </Link>
+
 
             </section>
 
