@@ -1,56 +1,98 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
 
-
 .capituloPage {
   background-size: cover;         
   background-position: center;  
-  width: auto;                   
-  height: auto;                   
+  width: 100%;                  
+  min-height: 100vh;                 
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
   margin: 0;                      
-  padding: 0;                     
-}
-
-.containerBusca{
-  width: 100%;
+  padding: 0;
+  box-sizing: border-box; 
+  justify-content: center;
+  align-items: center;
 }
 
 .titulo {
-    width: 70%;
-    height: 80px;
+    width: 90%;
+    max-width: 900px;
+    height: auto; 
+    padding: 15px; 
     font-family: 'Berkshire Swash', cursive;
     background: #FFFBF6;
     box-shadow: 0px 4px 43.6px 4px rgba(0, 0, 0, 0.25);
     border-radius: 15px;
     text-align: center;   
     font-size: 30px;
-    margin: 0 auto 30px auto; 
+    margin: 20px auto 30px auto;
+    box-sizing: border-box; 
 }
-
 
 .conteudoCapitulo {
   padding: 20px;
   flex: 1;
 }
 
-.conteudoCapitulo h2 {
-  font-size: 2rem;
-  margin-bottom: 20px;
-}
-
+/* tem que arrumar aq */
 .areaInterativa {
   display: flex;
-  gap: 20px;
+  flex-direction: row; 
+  justify-content: center; 
+  align-items: flex-start;
+  gap: 40px; 
+  padding: 0 20px;
+  flex-wrap: wrap;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.card-busca-wrapper {
+  flex-basis: 550px; 
+  flex-shrink: 0;
+  margin-top: 2rem;
 }
 
 .livro {
-  background-color: rgba(255, 255, 255, 0.9);
-  padding: 15px;
+  flex-basis: 1000px;
+  flex-shrink: 0;
+  width: 1000px;
+  max-width: 100%; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+@media (max-width: 1620px) { 
+  .areaInterativa {
+    flex-direction: column; 
+    align-items: center; 
+    gap: 50px;
+  }
+  .card-busca-wrapper {
+    margin-top: 0;
+  }
+}
+
+.botaoProximo {
+  display: block;
+  padding: 12px 25px;
+  background-color: var(--dark-green, #1C6B5D); 
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  text-decoration: none;
   border-radius: 10px;
-  flex: 1;
-  max-width: 800px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  transition: all 0.2s ease;
+}
+
+.botaoProximo:hover {
+  background-color: var(--medium-green, #07CD71);
+  transform: translateY(-2px);
 }
