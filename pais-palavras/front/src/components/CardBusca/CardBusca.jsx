@@ -82,16 +82,6 @@ export default function CardBusca({ onBuscaPalavra, onBuscaQtd, onCorChange }) {
                                 </button>
                             </div>
 
-                            <div className="alinhamentoInfos">
-                                <div className="mostraInfos">
-                                    <label htmlFor=""></label>
-                                    <h2>Quantidade de Palavras Repetidas</h2>
-                                </div>
-                                <div className="mostraInfos">
-                                    <label htmlFor=""></label>
-                                    <h2>Quantidade de Letras na pagina</h2>
-                                </div>
-                            </div>
 
                             <h3 className="opCores">Escolha a cor de destaque</h3>
                             <div className="containerCores">

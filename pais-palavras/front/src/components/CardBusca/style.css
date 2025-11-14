@@ -17,7 +17,7 @@ figure.imgTituloBusca {
     height: auto;
     position: relative;
     z-index: 4;
-    top: 50px;
+    top: 70px;
 }
 
 .corBase {
@@ -51,7 +51,7 @@ form {
     z-index: 1;
     display: flex;
     flex-direction: column;
-    background-color: var(--ligth-green);
+    background-color: #FAE3E5;
     width: 440px; 
     height: 520px; 
     border-radius: 15px;
@@ -59,11 +59,13 @@ form {
 }
 
 form p {
+    width: 400px;
     text-align: justify;
     margin-top: 25px; 
+    margin-bottom: 10px;
     padding: 10px 15px; 
     font-family: "Poppins", sans-serif;
-    font-size: 14px; 
+    font-size: 18px; 
     line-height: 1.4; 
 }
 
@@ -72,6 +74,7 @@ form label {
     border-radius: 15px;
     font-family: "Poppins", sans-serif;
     margin-bottom: 5px; 
+    font-size: 18px;
 }
 
 
@@ -82,15 +85,15 @@ form label {
 }
     
 .alinhamento input {
-    width: 270px; 
+    width: 310px; 
     height: 35px;
     border-radius: 15px;
     background-color: var(--white);
-    padding-left: 10px;
-    margin-right: 10px; 
+    padding-left: 15px;
     margin-bottom: 15px; 
     border: var(--purple-blue) solid 2px;
     font-family: "Poppins", sans-serif;
+    font-size: 16px;
 }
 
 .alinhamento .btn {
@@ -110,30 +113,6 @@ form label {
     height: 25px; 
 }
 
-.alinhamentoInfos{
-    display: flex;
-    justify-content: center;
-}
-
-.mostraInfos{
-    width: 180px; 
-    height: 60px; 
-    background-color: var(--white);
-    border-radius: 15px;
-    border: var(--purple-blue) solid 2px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    font-size: 9px; 
-    margin: 5px;
-    padding: 1px 5px; 
-    font-family: "Berkshire Swash", serif;
-    text-align: center; 
-}
-
-.mostraInfos label{
-    display: none; 
-}
 
 .opCores{
     margin-top: 5px; 
@@ -147,28 +126,34 @@ form label {
     grid-template-columns: repeat(4, 1fr);
     gap: 8px; 
     align-self: center;
-    background-color: var(--ligth-blue);
-    width: 390px; 
-    height: 60px; 
+    background-color: #fffcef;
+    width: 400px; 
+    height: 75px; 
     padding: 10px; 
     border-radius: 15px;
-    border: var(--purple-blue) solid 2px;
+    border: #F09A2C solid 2px;
+}
+
+.containerCores input{
+    width: 15px;
+    height: 15px;
 }
 
 .containerCores label {
   margin: 0;
   padding: 0;
   text-align: center;
-  font-size: 12px; 
+  font-size: 14px; 
 }
+
 
 .cor, .cor1, .cor2, .cor3, .cor5, .cor6, .cor7, .cor8 {
     border-radius: 15px;
     display: flex;
     align-items: center;
     justify-content: center; 
-    width: 75px; 
-    height: 26px; 
+    width: 85px; 
+    height: 35px; 
     font-size: 0.8rem; 
     padding: 0 5px; 
 }

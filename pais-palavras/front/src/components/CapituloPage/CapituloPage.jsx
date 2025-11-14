@@ -30,7 +30,6 @@ export default function CapituloPage() {
         .then(response => response.json())
         .then(data => {
             
-            // --- ESTA É A CORREÇÃO ---
             // 1. Acessamos o array 'pages' de dentro do JSON
             const todasPaginas = data.pages; 
             // -------------------------------
@@ -84,8 +83,8 @@ export default function CapituloPage() {
               corDestaque={corDestaque} 
             />
           </div>
-
         </div>
+        <button></button>
       </div>
       <Footer />
     </div>

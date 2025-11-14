@@ -17,6 +17,8 @@ import capitulo11 from '../../assets/imgs/capitulo11.png';
 import capitulo12 from '../../assets/imgs/capitulo12.png';
 
 export default function Capitulos() {
+
+    
     return (
         <>
             <main className='bodyCapitulos'>
