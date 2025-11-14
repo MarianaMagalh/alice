@@ -7,12 +7,12 @@
   width: 100%;                  
   min-height: 100vh;                 
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
   margin: 0;                      
   padding: 0;
   box-sizing: border-box; 
-  justify-content: center;
-  align-items: center;
 }
 
 .titulo {
@@ -35,37 +35,33 @@
   flex: 1;
 }
 
-/* tem que arrumar aq */
 .areaInterativa {
   display: flex;
   flex-direction: row; 
   justify-content: center; 
-  align-items: flex-start;
-  gap: 40px; 
+  align-items: flex-start; 
+  gap: 40px;
   padding: 0 20px;
-  flex-wrap: wrap;
+  flex-wrap: wrap; 
   width: 100%;
   box-sizing: border-box;
 }
 
 .card-busca-wrapper {
-  flex-basis: 550px; 
-  flex-shrink: 0;
-  margin-top: 2rem;
+  flex-basis: 500px; /* Baseado no 500px do .corBase */
+  flex-shrink: 0; 
+  margin-top: 2rem; 
 }
 
 .livro {
-  flex-basis: 1000px;
+  flex-basis: 1000px; 
   flex-shrink: 0;
   width: 1000px;
   max-width: 100%; 
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 20px;
 }
 
-@media (max-width: 1620px) { 
+/* Breakpoint para 500px (card) + 1000px (livro) + 40px (gap) */
+@media (max-width: 1550px) { 
   .areaInterativa {
     flex-direction: column; 
     align-items: center; 
@@ -74,25 +70,4 @@
   .card-busca-wrapper {
     margin-top: 0;
   }
-}
-
-.botaoProximo {
-  display: block;
-  padding: 12px 25px;
-  background-color: var(--dark-green, #1C6B5D); 
-  color: white;
-  font-family: "Poppins", sans-serif;
-  font-size: 1rem;
-  font-weight: 600;
-  text-decoration: none;
-  border-radius: 10px;
-  border: none;
-  cursor: pointer;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
-  transition: all 0.2s ease;
-}
-
-.botaoProximo:hover {
-  background-color: var(--medium-green, #07CD71);
-  transform: translateY(-2px);
 }
